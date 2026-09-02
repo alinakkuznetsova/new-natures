@@ -1,0 +1,32 @@
+[
+  {
+    "file": "leopard_coral_m050.png",
+    "title": "Leopard × coral, I",
+    "parents": "leopard × coral",
+    "method": "multi-target training",
+    "m": 0.5
+  },
+  {
+    "file": "dragonfly_leopard_m050.png",
+    "title": "Dragonfly toward leopard",
+    "parents": "dragonfly → leopard",
+    "method": "fine-tuning interpolation",
+    "m": 0.5
+  },
+  {
+    "file": "leopard_condensation_m025.png",
+    "title": "Emergent stripes",
+    "parents": "leopard × condensation",
+    "method": "weight interpolation",
+    "m": 0.25,
+    "note": "A failed combination that settled into a striped state belonging to neither parent."
+  },
+  {
+    "file": "leopard_dragonfly_m050.png",
+    "title": "Leopard × dragonfly",
+    "parents": "leopard × dragonfly",
+    "method": "multi-target training",
+    "m": 0.5,
+    "note": "Selected from a degraded sweep: viable as a pattern, unbalanced as a hybrid."
+  }
+]

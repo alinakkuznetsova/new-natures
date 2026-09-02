@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+html, body { height: 100%; }
+body {
+  background: #faf8f4;
+  color: #1a1815;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+}
+select option { background: #faf8f4; }
+input[type="range"] { height: 2px; }
+::selection { background: #1a1815; color: #faf8f4; }
