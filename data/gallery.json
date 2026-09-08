@@ -1,32 +1,394 @@
 [
   {
-    "file": "leopard_coral_m050.png",
-    "title": "Leopard × coral, I",
+    "file": "dragonfly_ft_condensation_m0.50_s42_052299-ffb347-a3e5e6_g1.65_gr0.00.png",
+    "title": "",
+    "parents": "dragonfly → condensation",
+    "method": "fine-tuning interpolation",
+    "m": 0.5
+  },
+  {
+    "file": "leopard_x_coral_m0.25_s42_0c195a-4790f0-eff0ad-e70d0d_inv_g0.75_gr0.00.png",
+    "title": "",
     "parents": "leopard × coral",
+    "method": "multi-target training",
+    "m": 0.25
+  },
+  {
+    "file": "dragonfly_x_condensation_m0.35_s42_e0f5ff-5bf0fb-402dd2-f5feff_inv_g1.80_gr0.08.png",
+    "title": "",
+    "parents": "dragonfly × condensation",
+    "method": "multi-target training",
+    "m": 0.35
+  },
+  {
+    "file": "condensation_ft_leopard_m0.50_s42_d8f0a3-9c76f4_g0.70_gr0.07.png",
+    "title": "",
+    "parents": "condensation → leopard",
+    "method": "fine-tuning interpolation",
+    "m": 0.5
+  },
+  {
+    "file": "coral_x_frost_m0.70_s42_a61c1c-b73838-fbeb83-ee7a1b_inv_g0.95_gr0.06.png",
+    "title": "",
+    "parents": "coral × frost",
+    "method": "multi-target training",
+    "m": 0.7
+  },
+  {
+    "file": "dragonfly_x_condensation_m0.55_s42_66cfff-5bf0fb-453c8b-f5feff_inv_g1.80_gr0.08.png",
+    "title": "",
+    "parents": "dragonfly × condensation",
+    "method": "multi-target training",
+    "m": 0.55
+  },
+  {
+    "file": "m3_leopard_x_condensation_m0.50_s42_52150a-ee919a-703029-fcfcfc_g0.50_gr0.04.png",
+    "title": "",
+    "parents": "leopard × condensation",
+    "method": "weight interpolation",
+    "m": 0.5
+  },
+  {
+    "file": "leopard_x_coral_m0.45_s42_df9516-3c24f5-eff0ad-d2ce4b_g0.95_gr0.16.png",
+    "title": "",
+    "parents": "leopard × coral",
+    "method": "multi-target training",
+    "m": 0.45
+  },
+  {
+    "file": "leopard_x_dragonfly_m0.50_s42_f4bdf2-5b26a6-ffa82e-fff370_inv_g1.00_gr0.00.png",
+    "title": "",
+    "parents": "leopard × dragonfly",
     "method": "multi-target training",
     "m": 0.5
   },
   {
-    "file": "dragonfly_leopard_m050.png",
-    "title": "Dragonfly toward leopard",
+    "file": "dragonfly_x_condensation_m0.55_s42_66cfff-5bf0fb-5e51bd-f8903a_inv_g1.60_gr0.10.png",
+    "title": "",
+    "parents": "dragonfly × condensation",
+    "method": "multi-target training",
+    "m": 0.55
+  },
+  {
+    "file": "leopard_x_coral_m0.45_s42_ff8614-3c24f5-eff0ad-d2ce4b_g0.95_gr0.16.png",
+    "title": "",
+    "parents": "leopard × coral",
+    "method": "multi-target training",
+    "m": 0.45
+  },
+  {
+    "file": "dragonfly_x_condensation_m0.70_s42_a5eeee-a871f4-0463c8-833f11_inv_g0.80_gr0.00.png",
+    "title": "",
+    "parents": "dragonfly × condensation",
+    "method": "multi-target training",
+    "m": 0.7
+  },
+  {
+    "file": "dragonfly_ft_condensation_m0.50_s42_052299-87e1f2-ffb347-a3e5e6_g1.65_gr0.00.png",
+    "title": "",
+    "parents": "dragonfly → condensation",
+    "method": "fine-tuning interpolation",
+    "m": 0.5
+  },
+  {
+    "file": "condensation_ft_leopard_m0.50_s42_6c10b7-ddc9f8-3e11a6_inv_g0.90_gr0.00.png",
+    "title": "",
+    "parents": "condensation → leopard",
+    "method": "fine-tuning interpolation",
+    "m": 0.5
+  },
+  {
+    "file": "m3_leopard_x_condensation_m0.50_s42_931515-f5b2ec-ffe561_g1.60_gr0.06.png",
+    "title": "",
+    "parents": "leopard × condensation",
+    "method": "weight interpolation",
+    "m": 0.5
+  },
+  {
+    "file": "condensation_ft_leopard_m0.50_s42_d8f0a3-71a970-653ed0-895dee_g1.00_gr0.25.png",
+    "title": "",
+    "parents": "condensation → leopard",
+    "method": "fine-tuning interpolation",
+    "m": 0.5
+  },
+  {
+    "file": "dragonfly_x_frost_m0.80_s42_b7578a-f7edf4-fa056f_inv_g0.85_gr0.09.png",
+    "title": "",
+    "parents": "dragonfly × frost",
+    "method": "multi-target training",
+    "m": 0.8
+  },
+  {
+    "file": "coral_x_frost_m0.50_s42_2b52ee-b097d3-f96d10_g1.00_gr0.00.png",
+    "title": "",
+    "parents": "coral × frost",
+    "method": "multi-target training",
+    "m": 0.5
+  },
+  {
+    "file": "dragonfly_ft_coral_m0.50_s42_f245bb-8cdef2-1f9d06_inv_g0.30_gr0.03.png",
+    "title": "",
+    "parents": "dragonfly → coral",
+    "method": "fine-tuning interpolation",
+    "m": 0.5
+  },
+  {
+    "file": "leopard_x_dragonfly_m0.50_s42_bfcbfd-none-8c0d0d_g1.40_gr0.05.png",
+    "title": "",
+    "parents": "leopard × dragonfly",
+    "method": "multi-target training",
+    "m": 0.5
+  },
+  {
+    "file": "leopard_x_dragonfly_m0.50_s42_f4bdf2-5b26a6-f5a638-f7f2ba_g1.00_gr0.04.png",
+    "title": "",
+    "parents": "leopard × dragonfly",
+    "method": "multi-target training",
+    "m": 0.5
+  },
+  {
+    "file": "coral_x_frost_m0.25_s42_2b52ee-b097d3-f96d10_g1.00_gr0.13.png",
+    "title": "",
+    "parents": "coral × frost",
+    "method": "multi-target training",
+    "m": 0.25
+  },
+  {
+    "file": "dragonfly_ft_condensation_m0.70_s42_fd9a58-571600-f4cc95-94481e_inv_g2.35_gr0.07.png",
+    "title": "",
+    "parents": "dragonfly → condensation",
+    "method": "fine-tuning interpolation",
+    "m": 0.7
+  },
+  {
+    "file": "leopard_x_coral_m0.45_s42_ff8800-3c24f5-d0d22d-f5ee38_g0.95_gr0.16.png",
+    "title": "",
+    "parents": "leopard × coral",
+    "method": "multi-target training",
+    "m": 0.45
+  },
+  {
+    "file": "dragonfly_ft_coral_m0.50_s42_fd91db-ffc370-cb0101_inv_g0.95_gr0.00.png",
+    "title": "",
+    "parents": "dragonfly → coral",
+    "method": "fine-tuning interpolation",
+    "m": 0.5
+  },
+  {
+    "file": "condensation_ft_leopard_m0.50_s42_d8f0a3-71a970-9c76f4_g0.80_gr0.09.png",
+    "title": "",
+    "parents": "condensation → leopard",
+    "method": "fine-tuning interpolation",
+    "m": 0.5
+  },
+  {
+    "file": "leopard_x_coral_m0.25_s42_009dff-7a3bd4-1af45c_g0.60_gr0.00.png",
+    "title": "",
+    "parents": "leopard × coral",
+    "method": "multi-target training",
+    "m": 0.25
+  },
+  {
+    "file": "dragonfly_ft_condensation_m0.50_s42_0033ff-ff6600_g1.15_gr0.00.png",
+    "title": "",
+    "parents": "dragonfly → condensation",
+    "method": "fine-tuning interpolation",
+    "m": 0.5
+  },
+  {
+    "file": "m3_leopard_x_condensation_m0.50_s42_24471a-6e9348-dffbd5_inv_g1.15_gr0.13.png",
+    "title": "",
+    "parents": "leopard × condensation",
+    "method": "weight interpolation",
+    "m": 0.5
+  },
+  {
+    "file": "condensation_ft_leopard_m0.50_s42_d8f0a3-71a970-ca674e-ee2b2b_g0.85_gr0.19.png",
+    "title": "",
+    "parents": "condensation → leopard",
+    "method": "fine-tuning interpolation",
+    "m": 0.5
+  },
+  {
+    "file": "leopard_x_coral_m0.45_s42_df9516-655310-eff0ad-d2ce4b_g0.95_gr0.16.png",
+    "title": "",
+    "parents": "leopard × coral",
+    "method": "multi-target training",
+    "m": 0.45
+  },
+  {
+    "file": "leopard_x_dragonfly_m0.30_s42_ece598-7cccee-4354a8-121740_inv_g1.35_gr0.00.png",
+    "title": "",
+    "parents": "leopard × dragonfly",
+    "method": "multi-target training",
+    "m": 0.3
+  },
+  {
+    "file": "dragonfly_x_frost_m0.50_s42_a600ff-ff8800-eeff00-fbed50_g1.45_gr0.00.png",
+    "title": "",
+    "parents": "dragonfly × frost",
+    "method": "multi-target training",
+    "m": 0.5
+  },
+  {
+    "file": "leopard_x_coral_m0.25_s42_415de6-eff0ad-e70d0d_inv_g0.65_gr0.00.png",
+    "title": "",
+    "parents": "leopard × coral",
+    "method": "multi-target training",
+    "m": 0.25
+  },
+  {
+    "file": "condensation_ft_coral_m0.40_s42_1b1938-8d91c8-eeebfa_g1.00_gr0.06.png",
+    "title": "",
+    "parents": "condensation → coral",
+    "method": "fine-tuning interpolation",
+    "m": 0.4
+  },
+  {
+    "file": "leopard_x_dragonfly_m0.50_s42_0033ff-none-ff6f00_g1.00_gr0.00.png",
+    "title": "",
+    "parents": "leopard × dragonfly",
+    "method": "multi-target training",
+    "m": 0.5
+  },
+  {
+    "file": "dragonfly_ft_condensation_m0.70_s42_f250cf-ffb347-2dfbac_inv_g0.75_gr0.07.png",
+    "title": "",
+    "parents": "dragonfly → condensation",
+    "method": "fine-tuning interpolation",
+    "m": 0.7
+  },
+  {
+    "file": "condensation_ft_coral_m0.40_s42_16143e-8c6cbc-dfd7f9_g0.90_gr0.04.png",
+    "title": "",
+    "parents": "condensation → coral",
+    "method": "fine-tuning interpolation",
+    "m": 0.4
+  },
+  {
+    "file": "dragonfly_ft_leopard_m0.50_s42_b3c2ff-3f45f8-ff7300-ff8b3d_inv_g0.35_gr0.09.png",
+    "title": "",
     "parents": "dragonfly → leopard",
     "method": "fine-tuning interpolation",
     "m": 0.5
   },
   {
-    "file": "leopard_condensation_m025.png",
-    "title": "Emergent stripes",
-    "parents": "leopard × condensation",
-    "method": "weight interpolation",
-    "m": 0.25,
-    "note": "A failed combination that settled into a striped state belonging to neither parent."
+    "file": "dragonfly_x_condensation_m0.35_s42_f0dbc7-a20606-ff9500-f3f4c2_g0.60_gr0.11.png",
+    "title": "",
+    "parents": "dragonfly × condensation",
+    "method": "multi-target training",
+    "m": 0.35
   },
   {
-    "file": "leopard_dragonfly_m050.png",
-    "title": "Leopard × dragonfly",
+    "file": "dragonfly_ft_coral_m0.50_s42_fd91db-b6fbbb-1f9d06_inv_g0.30_gr0.03.png",
+    "title": "",
+    "parents": "dragonfly → coral",
+    "method": "fine-tuning interpolation",
+    "m": 0.5
+  },
+  {
+    "file": "coral_x_frost_m0.25_s42_a61c1c-e68e8e-f5a3df_g1.05_gr0.04.png",
+    "title": "",
+    "parents": "coral × frost",
+    "method": "multi-target training",
+    "m": 0.25
+  },
+  {
+    "file": "leopard_x_dragonfly_m0.50_s42_748a4c-3e5219-a38f75-959970_g1.00_gr0.00.png",
+    "title": "",
     "parents": "leopard × dragonfly",
     "method": "multi-target training",
-    "m": 0.5,
-    "note": "Selected from a degraded sweep: viable as a pattern, unbalanced as a hybrid."
+    "m": 0.5
+  },
+  {
+    "file": "dragonfly_x_condensation_m0.70_s42_f5ffff-a871f4-0463c8-833f11_g1.00_gr0.00.png",
+    "title": "",
+    "parents": "dragonfly × condensation",
+    "method": "multi-target training",
+    "m": 0.7
+  },
+  {
+    "file": "leopard_x_coral_m0.25_s42_33b1ff-7a3bd4-40f033-157520_g1.25_gr0.06.png",
+    "title": "",
+    "parents": "leopard × coral",
+    "method": "multi-target training",
+    "m": 0.25
+  },
+  {
+    "file": "coral_x_frost_m0.50_s42_2b52ee-b097d3-f96d10_g1.00_gr0.13.png",
+    "title": "",
+    "parents": "coral × frost",
+    "method": "multi-target training",
+    "m": 0.5
+  },
+  {
+    "file": "dragonfly_ft_leopard_m0.30_s42_0b7c03-cbffc7-429e65_g1.00_gr0.06.png",
+    "title": "",
+    "parents": "dragonfly → leopard",
+    "method": "fine-tuning interpolation",
+    "m": 0.3
+  },
+  {
+    "file": "leopard_x_coral_m0.25_s42_990a00-f02828-40f033-e70d0d_inv_g0.75_gr0.00.png",
+    "title": "",
+    "parents": "leopard × coral",
+    "method": "multi-target training",
+    "m": 0.25
+  },
+  {
+    "file": "dragonfly_x_condensation_m0.55_s42_66cfff-5bf0fb-5f48f4-0028f0_g0.75_gr0.00.png",
+    "title": "",
+    "parents": "dragonfly × condensation",
+    "method": "multi-target training",
+    "m": 0.55
+  },
+  {
+    "file": "dragonfly_ft_condensation_m0.50_s42_0033ff-87e1f2-a3e5e6_g1.15_gr0.00.png",
+    "title": "",
+    "parents": "dragonfly → condensation",
+    "method": "fine-tuning interpolation",
+    "m": 0.5
+  },
+  {
+    "file": "dragonfly_x_condensation_m0.35_s42_f0dbc7-784d12-512d15_g1.35_gr0.11.png",
+    "title": "",
+    "parents": "dragonfly × condensation",
+    "method": "multi-target training",
+    "m": 0.35
+  },
+  {
+    "file": "coral_x_frost_m0.35_s42_750b0b-b73838-fff194-f17109_g0.60_gr0.00.png",
+    "title": "",
+    "parents": "coral × frost",
+    "method": "multi-target training",
+    "m": 0.35
+  },
+  {
+    "file": "dragonfly_x_frost_m0.50_s42_b7578a-f7edf4-fa056f_inv_g1.10_gr0.14.png",
+    "title": "",
+    "parents": "dragonfly × frost",
+    "method": "multi-target training",
+    "m": 0.5
+  },
+  {
+    "file": "leopard_x_dragonfly_m0.30_s42_d2c532-7cccee-4354a8-121740_g1.45_gr0.00.png",
+    "title": "",
+    "parents": "leopard × dragonfly",
+    "method": "multi-target training",
+    "m": 0.3
+  },
+  {
+    "file": "dragonfly_ft_leopard_m0.50_s42_b3c2ff-3f45f8-ff8b3d_g0.45_gr0.09.png",
+    "title": "",
+    "parents": "dragonfly → leopard",
+    "method": "fine-tuning interpolation",
+    "m": 0.5
+  },
+  {
+    "file": "dragonfly_x_frost_m0.50_s42_14550c-81f26e-ffffff_g1.65_gr0.00.png",
+    "title": "",
+    "parents": "dragonfly × frost",
+    "method": "multi-target training",
+    "m": 0.5
   }
 ]

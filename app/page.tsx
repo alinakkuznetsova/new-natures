@@ -148,6 +148,27 @@ export default function Home() {
       </section>
 
       <section className="border-t border-[#d6d2ca]">
+        <div className="mx-auto max-w-6xl px-6 py-16">
+          <p className="text-xs uppercase tracking-[0.15em] text-[#76726b] mb-6">About this room</p>
+          <div className="max-w-3xl text-[#1a1815] text-sm leading-relaxed space-y-4">
+            <p>
+              Choose a pattern on the left and one on the right, then move the slider to blend between them in
+              real time. The shadows and highlights pickers colour the output.
+            </p>
+            <p>
+              The room shows multi-target training (Method 1 of three in the report). This is the only one of
+              the methods that runs interactively: a single trained model takes the mixing coordinate m as a
+              direct input, so any value of m renders instantly as the network runs. In the other two methods,
+              m selects between combinations of pre-computed weights, which are generated ahead of time rather
+              than at the slider. Their outputs appear in the gallery. The palette here is a simple two-stop
+              gradient; the gallery works use the fuller pipeline described in the report (four colour stops,
+              tonal inversion, gamma, and grain).
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="border-t border-[#d6d2ca]">
         <Link href="/gallery" className="group block mx-auto max-w-6xl px-6 py-16">
           <p className="text-xs uppercase tracking-[0.15em] text-[#76726b] mb-3">Exhibition</p>
           <h2 className="text-3xl md:text-4xl font-semibold tracking-tight group-hover:text-[#76726b]">Enter the gallery →</h2>
