@@ -26,9 +26,7 @@ export default function Gallery() {
           mapping, optional inversion, gamma, and grain.
         </p>
         <p>
-          Method 3 combinations all failed against the report&rsquo;s grading criteria, but the failures often
-          produced striking patterns of their own, belonging to neither parent. A curated selection appears here
-          for their qualities as patterns rather than as hybrids.
+          In each work&rsquo;s label, m = 0 corresponds to the first parent listed and m = 1 to the second.
         </p>
       </div>
 
